@@ -31,6 +31,3 @@ javac -encoding UTF-8 -d out $(find src -name "*.java")
 java -cp out refactoring.antes.Main
 java -cp out refactoring.despues.Main
 ```
-
-
-
