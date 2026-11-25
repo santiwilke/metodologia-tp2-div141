@@ -1,0 +1,147 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+    padding: 25px;
+}
+
+header {
+    background-color: #1e3a5f;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    margin-bottom: 8px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    margin-bottom: 15px;
+    color: #1e3a5f;
+}
+
+.sensores-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.sensor-card {
+    background-color: #e2e8f0;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.sensor-card h3 {
+    margin-bottom: 10px;
+}
+
+.sensor-valor {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.estado-normal {
+    color: #15803d;
+    font-weight: bold;
+}
+
+.estado-alerta {
+    color: #dc2626;
+    font-weight: bold;
+}
+
+#alertas p,
+#historial p,
+#registro p {
+    padding: 8px;
+    margin-bottom: 6px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+@media (max-width: 700px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    .sensores-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.controles-sensor {
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px solid #cbd5e1;
+}
+
+.controles-sensor p {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.controles-sensor label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.controles-sensor input {
+    margin-right: 6px;
+}
+
+.control-valor {
+    margin-top: 15px;
+}
+
+.control-valor label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.control-valor input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+}
+
+.control-valor button {
+    padding: 8px 14px;
+    background-color: #1e3a5f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.control-valor button:hover {
+    background-color: #294f7c;
+}

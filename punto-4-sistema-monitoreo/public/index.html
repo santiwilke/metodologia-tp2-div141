@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoreo Ambiental</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Sistema de Monitoreo Ambiental</h1>
+        <p>Panel de control de sensores ambientales</p>
+    </header>
+
+    <main>
+
+        <section id="panel-principal">
+            <h2>Mediciones actuales</h2>
+
+            <div id="sensores" class="sensores-container">
+                <!-- Las mediciones se agregaran desde JavaScript -->
+            </div>
+        </section>
+
+        <section id="panel-alertas">
+            <h2>Alertas</h2>
+            <div id="alertas">
+                <p class="mensaje-inicial">No hay alertas registradas.</p>
+            </div>
+        </section>
+
+        <section id="panel-historial">
+            <h2>Historial de mediciones</h2>
+            <div id="historial">               
+            </div>
+        </section>
+
+        <section id="panel-registro">
+            <h2>Registro de cambios</h2>
+            <div id="registro">
+            </div>
+        </section>
+
+    </main>
+
+    <script type="module" src="/main.js"></script>
+
+</body>
+</html>
