@@ -1,3 +1,5 @@
+# TP integrador 2 - Metodologia de Sistemas II
+
 ## Sistema de Monitoreo Ambiental (Punto 4)
 
 Implementación del sistema de monitoreo ambiental utilizando el patrón de diseño Observer.
@@ -15,7 +17,7 @@ http://localhost:3000
 ```
 
 
-# TP integrador 2 - Metodologia de Sistemas II
+## Refactoring
 
 Codigo del punto de Refactoring (clase Videojuego).
 
